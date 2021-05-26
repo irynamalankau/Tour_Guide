@@ -8,95 +8,87 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="large_text">
-        "Material is the metaphor.\n\n"
+    <string name="menu_hotels">Glenview Hotels</string>
+    <string name="menu_restaurants">Glenview Restaurants</string>
+    <string name="menu_attractions">Glenview Attractions</string>
+    <string name="menu_shopping">Glenview Shopping</string>
 
-        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
-        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
-        "technologically advanced and open to imagination and magic.\n"
-        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
-        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
-        "flexibility of the material creates new affordances that supercede those in the physical "
-        "world, without breaking the rules of physics.\n"
-        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
-        "interact, and exist in space and in relation to each other. Realistic lighting shows "
-        "seams, divides space, and indicates moving parts.\n\n"
+    <!--    category-->
+    <string name="category_hotels">hotels</string>
+    <string name="category_restaurants">restaurants</string>
+    <string name="category_attractions">attractions</string>
+    <string name="category_shopping">shopping</string>
 
-        "Bold, graphic, intentional.\n\n"
+    <!--    Home-->
+    <string name="text_title">glenview</string>
+    <string name="text_about">Glenview is a village located Illinois, United States, approximately 15 miles northwest of the Chicago Loop.
+    The Village had only 350 residents when it was incorporated in 1899. Today, the population is almost 47,000. Located in Cook County, the Village\'s
+        fine amenities and services, excellent schools, 34 parks and playgrounds covering more than 290 acres, numerous options for shopping and dining and
+        proximity to local expressways and commuter trains have made it one of Chicago\'s premier suburbs — a vibrant, thriving community that manages growth with success and style.</string>
 
-        "The foundational elements of print based design typography, grids, space, scale, color, "
-        "and use of imagery guide visual treatments. These elements do far more than please the "
-        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
-        "imagery, large scale typography, and intentional white space create a bold and graphic "
-        "interface that immerse the user in the experience.\n"
-        "An emphasis on user actions makes core functionality immediately apparent and provides "
-        "waypoints for the user.\n\n"
+    <!--    hotels-->
+    <string name="hotel_name_one">Estia Hotel and Suites</string>
+    <string name="hotel_address_one">4514 W Lake Ave, Glenview, IL 60025</string>
+    <string name="hotel_phone_one">(847) 635-5220</string>
 
-        "Motion provides meaning.\n\n"
+    <string name="hotel_name_two">Baymont by Wyndham Glenview</string>
+    <string name="hotel_address_two">1625 Milwaukee Ave, Glenview, IL 60025</string>
+    <string name="hotel_phone_two">(224) 217-5230</string>
 
-        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
-        "inflection points that initiate motion, transforming the whole design.\n"
-        "All action takes place in a single environment. Objects are presented to the user without "
-        "breaking the continuity of experience even as they transform and reorganize.\n"
-        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
-        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+    <string name="hotel_name_three">Renaissance Chicago Glenview Suites Hotel</string>
+    <string name="hotel_address_three">1400 Milwaukee Ave, Glenview, IL 60025</string>
+    <string name="hotel_phone_three">(847) 803-9800</string>
 
-        "3D world.\n\n"
+    <string name="hotel_name_four">Staybridge Suites Chicago - Glenview</string>
+    <string name="hotel_address_four">2600 Lehigh Ave, Glenview, IL 60026</string>
+    <string name="hotel_phone_four">(847) 657-0002</string>
 
-        "The material environment is a 3D space, which means all objects have x, y, and z "
-        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
-        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
-        "position along the z-axis and has a standard 1dp thickness.\n"
-        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
-        "emulated by manipulating the y-axis.\n\n"
+    <!--    restaurants-->
+    <string name="res_name_one">North Branch Pizza and Burger Co</string>
+    <string name="res_address_one">4520 W Lake Ave, Glenview, IL 60026</string>
+    <string name="res_phone_one">(847)-813-6400</string>
+    <string name="res_description_one">American, Bar</string>
 
-        "Light and shadow.\n\n"
+    <string name="res_name_two">Riobamba Latin Kitchen</string>
+    <string name="res_address_two">1869 Waukegan Rd, Glenview, IL 60025</string>
+    <string name="res_phone_two">(847)-834-0174</string>
+    <string name="res_description_two">Latin, Mexican</string>
 
-        "Within the material environment, virtual lights illuminate the scene. Key lights create "
-        "directional shadows, while ambient light creates soft shadows from all angles.\n"
-        "Shadows in the material environment are cast by these two light sources. In Android "
-        "development, shadows occur when light sources are blocked by sheets of material at "
-        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+    <string name="res_name_three">Viccino\'s Pizza Company</string>
+    <string name="res_address_three">2773 Pfingsten Rd, Glenview, IL 60026</string>
+    <string name="res_phone_three">(847)-498-3888</string>
+    <string name="res_description_three">Italian, Vegetarian Friendly</string>
 
-        "Resting elevation.\n\n"
+    <!--    attractions-->
+    <string name="attr_name_one">Kohl Children\'s Museum</string>
+    <string name="attr_address_one">2100 Patriot Blvd, Glenview, IL 60026</string>
+    <string name="attr_phone_one">(847)-832-6600</string>
+    <string name="attr_description_one">Children\'s Museums</string>
 
-        "All material objects, regardless of size, have a resting elevation, or default elevation "
-        "that does not change. If an object changes elevation, it should return to its resting "
-        "elevation as soon as possible.\n\n"
+    <string name="attr_name_two">Historic Wagner Farm</string>
+    <string name="attr_address_two">1510 Wagner Rd, Glenview, IL 60025</string>
+    <string name="attr_phone_two">(847)-657-1506</string>
+    <string name="attr_description_two">Farms</string>
 
-        "Component elevations.\n\n"
+    <string name="attr_name_three">The Grove</string>
+    <string name="attr_address_three">1421 Milwaukee Ave, Glenview, IL 60025</string>
+    <string name="attr_phone_three">(847)-299-6096</string>
+    <string name="attr_description_three">Points of Interest &amp; Landmarks</string>
 
-        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
-        "does not vary from 6dp in one app to 16dp in another app).\n"
-        "Components may have different resting elevations across platforms, depending on the depth "
-        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+    <string name="attr_name_four">Oil Lamp Theater</string>
+    <string name="attr_address_four">1723 Glenview Rd, Glenview, IL 60025</string>
+    <string name="attr_phone_four">(847)-834-0738</string>
+    <string name="attr_description_four">Theaters</string>
 
-        "Responsive elevation and dynamic elevation offsets.\n\n"
+    <!--    shopping-->
+    <string name="shop_name_one">The Glen</string>
+    <string name="shop_address_one">2030 Tower Drive, Glenview, IL 60026</string>
+    <string name="shop_phone_one">(847) 724-2025</string>
+    <string name="shop_description_one">Shopping Malls</string>
 
-        "Some component types have responsive elevation, meaning they change elevation in response "
-        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
-        "changes are consistently implemented using dynamic elevation offsets.\n"
-        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
-        "to the component’s resting state. They ensure that elevation changes are consistent "
-        "across actions and component types. For example, all components that lift on press have "
-        "the same elevation change relative to their resting elevation.\n"
-        "Once the input event is completed or cancelled, the component will return to its resting "
-        "elevation.\n\n"
+    <string name="shop_name_two">Trader Joe\'s</string>
+    <string name="shop_address_two">1407 Waukegan Rd, Glenview, IL 60025</string>
+    <string name="shop_phone_two">(847) 657-7821</string>
+    <string name="shop_description_two">Grocery stores</string>
 
-        "Avoiding elevation interference.\n\n"
-
-        "Components with responsive elevations may encounter other components as they move between "
-        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
-        "through other material, components avoid interfering with one another any number of ways, "
-        "whether on a per component basis or using the entire app layout.\n"
-        "On a component level, components can move or be removed before they cause interference. "
-        "For example, a floating action button (FAB) can disappear or move off screen before a "
-        "user picks up a card, or it can move if a snackbar appears.\n"
-        "On the layout level, design your app layout to minimize opportunities for interference. "
-        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
-        "when a user tries to pick up one of cards.\n\n"
-    </string>
 </resources>

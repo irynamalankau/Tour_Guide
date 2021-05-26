@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="navigation_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="drawer_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:background">@color/fragment_background</item>
+    </style>
+
+    <style name="home_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/home_title_marginTop</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/home_title_textSize</item>
+    </style>
+
+    <style name="home_image">
+        <item name="android:layout_width">@dimen/home_image_width</item>
+        <item name="android:layout_height">@dimen/home_image_height</item>
+        <item name="android:layout_marginTop">@dimen/home_image_marginTop</item>
+    </style>
+
+    <style name="textView_home_about">
+        <item name="android:layout_width">@dimen/home_about_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/home_about_margin_32</item>
+        <item name="android:layout_marginLeft">@dimen/home_about_margin_32</item>
+        <item name="android:layout_marginTop">@dimen/home_about_marginTop</item>
+        <item name="android:layout_marginEnd">@dimen/home_about_margin_32</item>
+        <item name="android:paddingBottom">@dimen/home_about_padding_bottom</item>
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">center</item>
+        <item name="android:textSize">@dimen/home_about_text_size</item>
+        <item name="android:layout_marginRight">@dimen/home_about_margin_32</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="recyclerView_fragment_list">
+        <item name="android:name">com.example.tourguide.HotelsFragment</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">@dimen/fragment_list_margin</item>
+        <item name="android:layout_marginRight">@dimen/fragment_list_margin</item>
+    </style>
+
+    <style name="recyclerView_fragment_list_horizontal_scroll">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/fragment_list_horizontal_scroll_margin</item>
+        <item name="android:layout_marginRight">@dimen/fragment_list_horizontal_scroll_margin</item>
+    </style>
+
+    <style name="fragment_list_item_image">
+        <item name="android:layout_width">@dimen/fragment_list_item_image_width</item>
+        <item name="android:layout_height">@dimen/fragment_list_item_image_width</item>
+        <item name="android:layout_marginTop">@dimen/fragment_list_item_image_marginTop</item>
+    </style>
+
+    <style name="fragment_list_item_name">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/fragment_list_item_name_margin</item>
+        <item name="android:layout_marginLeft">@dimen/fragment_list_item_name_margin</item>
+        <item name="android:layout_marginTop">@dimen/fragment_list_item_name_marginTop</item>
+        <item name="android:textAppearance">?attr/textAppearanceHeadline6</item>
+        <item name="android:textSize">@dimen/fragment_list_item_name_text_size</item>
+    </style>
+
+    <style name="fragment_list_item_address">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody2</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">@dimen/fragment_list_item_address_text_size</item>
+    </style>
+
+    <style name="fragment_list_item_phone">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/fragment_list_item_phone_marginBottom</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody2</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">@dimen/fragment_list_item_phone_text_size</item>
+    </style>
+
+    <style name="fragment_list_item_description">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">
+            @dimen/fragment_list_item_description_marginBottom
+        </item>
+        <item name="android:textSize">@dimen/fragment_list_item_description_text_size</item>
+    </style>
+
+    <style name="fragment_list_item_card">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/fragment_list_item_card_margin</item>
+    </style>
+
+    <style name="fragment_list_item_card_image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/fragment_list_item_card_image_height</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="fragment_list_item_card_info_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/fragment_list_item_card_info_container_padding</item>
+    </style>
+
+    <style name="fragment_list_item_card_name">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?attr/textAppearanceHeadline6</item>
+    </style>
+
+    <style name="fragment_list_item_card_address">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/fragment_list_item_card_address_marginTop
+        </item>
+        <item name="android:textAppearance">?attr/textAppearanceBody2</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="fragment_list_item_card_phone">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/fragment_list_item_card_phone_marginTop</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody2</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="fragment_list_item_card_description">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/fragment_list_item_card_description_textSize</item>
+        <item name="android:layout_marginTop">@dimen/fragment_list_item_card_description_marginTop
+        </item>
+    </style>
+
+</resources>

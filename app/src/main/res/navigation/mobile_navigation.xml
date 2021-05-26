@@ -4,17 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
     app:startDestination="@+id/nav_home">
-
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.tourguide.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
-
-   <!-- <fragment
+    <fragment
         android:id="@+id/nav_hotels"
         android:name="com.example.tourguide.HotelsFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_hotels" />-->
-
+        android:label="@string/menu_hotels"
+        tools:layout="@layout/fragment_list_horizontal_scroll" />
+    <fragment
+        android:id="@+id/nav_restaurants"
+        android:name="com.example.tourguide.RestaurantsFragment"
+        android:label="@string/menu_restaurants"
+        tools:layout="@layout/fragment_list_horizontal_scroll" />
+    <fragment
+        android:id="@+id/nav_attractions"
+        android:name="com.example.tourguide.AttractionsFragment"
+        android:label="@string/menu_attractions"
+        tools:layout="@layout/fragment_list" />
+    <fragment
+        android:id="@+id/nav_shopping"
+        android:name="com.example.tourguide.ShoppingFragment"
+        android:label="@string/menu_shopping"
+        tools:layout="@layout/fragment_list_horizontal_scroll" />
 </navigation>
