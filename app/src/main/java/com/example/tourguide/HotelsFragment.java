@@ -20,7 +20,8 @@ public class HotelsFragment extends Fragment {
     private ArrayList<Information> placeInfo = new ArrayList<>();
     private MyRecyclerViewAdapter adapter;
 
-    public HotelsFragment(){};
+    public HotelsFragment() {
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

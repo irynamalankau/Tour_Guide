@@ -48,7 +48,6 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        public final View mView;
         public final TextView mName;
         public final TextView mAddress;
         public final TextView mPhoneNumber;
@@ -57,7 +56,6 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
 
         public ViewHolder(View view) {
             super(view);
-            mView = view;
             mName = (TextView) view.findViewById(R.id.list_item_name);
             mAddress = (TextView) view.findViewById(R.id.list_item_address);
             mPhoneNumber = (TextView) view.findViewById(R.id.list_item_phone);
@@ -70,9 +68,9 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
             mAddress.setText(place.getAddress());
             mPhoneNumber.setText(place.getPhoneNumber());
             mImage.setImageResource(place.getImageResource());
-            if (place.hasDescription()){
+            if (place.hasDescription()) {
                 mDescription.setText(place.getDescription());
-            } else{
+            } else {
                 mDescription.setVisibility(View.GONE);
             }
         }

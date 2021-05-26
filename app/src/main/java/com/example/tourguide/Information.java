@@ -15,24 +15,24 @@ public class Information {
     private int VIEW_TYPE_CARD = 0;
     private int VIEW_TYPE_ICON = 1;
 
-    public Information(String name, String address, String phoneNumber, String category, String description,int imageResource){
+    public Information(String name, String address, String phoneNumber, String category, String description, int imageResource) {
         mName = name;
-        mAddress= address;
+        mAddress = address;
         mPhoneNumber = phoneNumber;
         mCategory = category;
         mDescription = description;
         mImageResource = imageResource;
     }
 
-    public Information(String name, String address, String phoneNumber, String category, int imageResource){
+    public Information(String name, String address, String phoneNumber, String category, int imageResource) {
         mName = name;
-        mAddress= address;
+        mAddress = address;
         mPhoneNumber = phoneNumber;
         mCategory = category;
         mImageResource = imageResource;
     }
 
-    public String getName(){
+    public String getName() {
         return mName;
     }
 
@@ -44,11 +44,11 @@ public class Information {
         return mPhoneNumber;
     }
 
-    public String getDescription(){
+    public String getDescription() {
         return mDescription;
     }
 
-    public int getImageResource(){
+    public int getImageResource() {
         return mImageResource;
     }
 
@@ -57,8 +57,8 @@ public class Information {
     }
 
     //method to get the layout view type based on the category of the information list
-    public int getViewType(){
-        if (mCategory.equalsIgnoreCase(CATEGORY_CARD_VIEW)){
+    public int getViewType() {
+        if (mCategory.equalsIgnoreCase(CATEGORY_CARD_VIEW)) {
             return VIEW_TYPE_CARD;
         }
         return VIEW_TYPE_ICON;

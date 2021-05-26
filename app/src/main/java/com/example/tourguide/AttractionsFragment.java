@@ -32,7 +32,7 @@ public class AttractionsFragment extends Fragment {
                 getString(R.string.attr_phone_one),
                 getString(R.string.category_attractions),
                 getString(R.string.attr_description_one),
-                R.drawable.museum));
+                R.drawable.kohl_museum));
         placeInfo.add(new Information(getString(R.string.attr_name_two),
                 getString(R.string.attr_address_two),
                 getString(R.string.attr_phone_two),
@@ -50,7 +50,7 @@ public class AttractionsFragment extends Fragment {
                 getString(R.string.attr_phone_four),
                 getString(R.string.category_attractions),
                 getString(R.string.attr_description_four),
-                R.drawable.theater));
+                R.drawable.theater_oil_lamp));
 
         //get recyclerView by id
         RecyclerView recyclerView = view.findViewById(R.id.list);

@@ -12,7 +12,8 @@ import android.view.ViewGroup;
 public class HomeFragment extends Fragment {
 
     // Required empty public constructor
-    public HomeFragment() {}
+    public HomeFragment() {
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

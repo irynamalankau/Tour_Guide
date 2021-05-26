@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import java.util.ArrayList;
 
 public class ShoppingFragment extends Fragment {
@@ -17,7 +18,8 @@ public class ShoppingFragment extends Fragment {
     private ArrayList<Information> placeInfo = new ArrayList<>();
     private MyRecyclerViewAdapter adapter;
 
-    public ShoppingFragment(){};
+    public ShoppingFragment() {
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

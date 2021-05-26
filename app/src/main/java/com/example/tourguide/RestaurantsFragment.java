@@ -18,7 +18,8 @@ public class RestaurantsFragment extends Fragment {
     private ArrayList<Information> placeInfo = new ArrayList<>();
     private MyRecyclerViewAdapter adapter;
 
-    public RestaurantsFragment(){};
+    public RestaurantsFragment() {
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
